@@ -1,0 +1,6 @@
+
+ create proc spddl_test1
+ as
+ begin
+	select 1
+end 
