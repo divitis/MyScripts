@@ -1,0 +1,6 @@
+
+ alter proc spddl_test1
+ as
+ begin
+	select 124wwew
+end 
