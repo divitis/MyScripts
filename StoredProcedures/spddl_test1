@@ -1,6 +1,1 @@
-
- alter proc spddl_test1
- as
- begin
-	select 124wwew2222223
-end 
+drop proc spddl_test1
