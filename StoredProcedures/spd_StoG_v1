@@ -1,0 +1,7 @@
+
+create procedure spd_StoG_v1
+as
+begin
+	select 'v1'
+end
+
