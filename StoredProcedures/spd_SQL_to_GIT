@@ -3,12 +3,12 @@
 -- Create date: 2018
 -- Description:	SQL to GIT demo
 -- =============================================
-CREATE PROCEDURE [dbo].[spd_SQL_to_GIT] 
+ALTER PROCEDURE [dbo].[spd_SQL_to_GIT] 
 	 @BusinessEntityID [int]
 AS
 BEGIN
 	SET NOCOUNT ON;
-
+	-- Change 1
     -- Use recursive query to list out all Employees required for a particular Manager
     WITH [EMP_cte]([BusinessEntityID], [OrganizationNode], [FirstName], [LastName], [JobTitle], [RecursionLevel]) -- CTE name and columns
     AS (
