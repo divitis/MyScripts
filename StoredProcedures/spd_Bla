@@ -1,0 +1,6 @@
+
+create procedure spd_Bla
+as
+begin
+	select @@SERVERNAME
+end
