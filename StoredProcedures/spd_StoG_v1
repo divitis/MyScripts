@@ -2,5 +2,5 @@
 alter procedure spd_StoG_v1
 as
 begin
-	select 'v1' as Sandeep
+	select 'v1' as Sandeep2
 end
