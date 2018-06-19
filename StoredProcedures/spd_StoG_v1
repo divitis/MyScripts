@@ -2,5 +2,5 @@
 ALTER procedure [dbo].[spd_StoG_v1]
 as
 begin
-	select 'v1' as Proof2
+	select 'v1' as Profess
 end
