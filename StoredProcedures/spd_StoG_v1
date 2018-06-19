@@ -1,7 +1,6 @@
 
-create procedure spd_StoG_v1
+alter procedure spd_StoG_v1
 as
 begin
-	select 'v1'
+	select 'v1' as Aa
 end
-
