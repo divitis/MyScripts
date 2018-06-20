@@ -3,4 +3,5 @@ ALTER procedure [dbo].[spd_StoG_v1]
 as
 begin
 	select 'v1' as Profess
+	select 3
 end
