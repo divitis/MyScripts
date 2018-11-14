@@ -1,8 +1,9 @@
-CREATE PROCEDURE spdGetClients
+
+ALTER PROCEDURE spdGetClients
 @IndustryId int
 AS 
 BEGIN
 	SELECT ClientId, ClientName
 	FROM tblClients
-	WHERE IndustryId = @IndustryId
+	WHERE IndustryId = @IndustryId -- 2
 END
