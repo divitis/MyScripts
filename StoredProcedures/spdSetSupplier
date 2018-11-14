@@ -5,6 +5,6 @@ ALTER PROCEDURE spdSetSupplier
 AS 
 BEGIN
 	UPDATE tblSuppliers
-	SET		SupplierName = @Name -- 5
+	SET		SupplierName = @Name -- 511
 	WHERE SupplierId = @Id
 END
