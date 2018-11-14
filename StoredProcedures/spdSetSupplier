@@ -1,0 +1,10 @@
+
+ALTER PROCEDURE spdSetSupplier
+@Id int,
+@Name nvarchar(255)
+AS 
+BEGIN
+	UPDATE tblSuppliers
+	SET		SupplierName = @Name -- 5
+	WHERE SupplierId = @Id
+END
