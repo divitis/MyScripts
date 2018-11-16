@@ -1,7 +1,1 @@
-ALTER PROCEDURE dbo.SPSQIT_Demo3
-@Author as NVARCHAR(255)
-AS
-BEGIN
-	SELECT 'This is Demo 3, executed by ' + @Author as [Message] -- {657FDF19-CEF9-440F-957E-17C56E1E1F91}
-END
-
+DROP PROCEDURE dbo.SPSQIT_Demo3
