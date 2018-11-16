@@ -1,0 +1,6 @@
+CREATE PROCEDURE dbo.SPSQIT_Demo3
+AS
+BEGIN
+	SELECT 'This is Demo 3' as [Message]
+END
+
