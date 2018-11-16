@@ -1,6 +1,8 @@
-CREATE PROCEDURE dbo.SPSQIT_Demo2
+
+ALTER PROCEDURE dbo.SPSQIT_Demo2
+@Author as NVARCHAR(255)
 AS
 BEGIN
-	SELECT 'This is Demo 1' as [Message]
+	SELECT 'This is Demo 2, executed by ' + @Author as [Message]
 END
 
