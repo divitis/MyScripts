@@ -3,7 +3,7 @@
 -- Create date: 2018-11-22
 -- Description:	test1
 -- =============================================
-CREATE PROCEDURE dbo.Proc_181122_1
+ALTER PROCEDURE dbo.Proc_181122_1
 	@p1 int = 0, 
 	@p2 int = 0
 AS
@@ -13,5 +13,5 @@ BEGIN
 	SET NOCOUNT ON;
 
     -- Insert statements for procedure here
-	SELECT @p1 + @p2 as [Total]
+	SELECT @p1 + @p2 as [Total] -- comment 1
 END
