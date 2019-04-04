@@ -5,5 +5,5 @@ AS
 BEGIN
 	SELECT ClientId, ClientName
 	FROM tblClients
-	WHERE IndustryId = @IndustryId -- 4 - on Apr 04, 2019
+	WHERE IndustryId = @IndustryId -- 5- on Apr 04, 2019
 END
