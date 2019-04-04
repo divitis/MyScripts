@@ -1,9 +1,9 @@
 
-ALTER PROCEDURE spdGetClients
+ALTER PROCEDURE [dbo].[spdGetClients]
 @IndustryId int
 AS 
 BEGIN
 	SELECT ClientId, ClientName
 	FROM tblClients
-	WHERE IndustryId = @IndustryId -- 2
+	WHERE IndustryId = @IndustryId -- 3 - on Apr 04, 2019
 END
