@@ -1,0 +1,17 @@
+-- =============================================
+-- Author:		Developer1
+-- Create date: 2019-04-04
+-- Description:	<Description,,>
+-- =============================================
+CREATE PROCEDURE git.SProc1
+	-- Add the parameters for the stored procedure here
+	
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+    -- Insert statements for procedure here
+	SELECT 'Car' as Product
+END
