@@ -3,7 +3,7 @@
 -- Create date: <Create Date,,>
 -- Description:	let's see if we can save this description into a separate field.
 -- =============================================
-CREATE PROCEDURE sp_PROC_with_Comments 
+ALTER PROCEDURE [dbo].[sp_PROC_with_Comments] 
 	-- Add the parameters for the stored procedure here
 	@noparam as char(1) = ''
 AS
@@ -13,5 +13,5 @@ BEGIN
 	SET NOCOUNT ON;
 
     -- Insert statements for procedure here
-	SELECT @noparam as [No Parameter]
+	SELECT @noparam as [No Parameter2]
 END
