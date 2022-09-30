@@ -1,0 +1,17 @@
+-- =============================================
+-- Author:		Florin Luigi Marinescu
+-- Create date: <Create Date,,>
+-- Description:	let's see if we can save this description into a separate field.
+-- =============================================
+ALTER PROCEDURE [dbo].[sp_PROC_with_Comments] 
+	-- Add the parameters for the stored procedure here
+	@noparam as char(1) = ''
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+    -- Insert statements for procedure here
+	SELECT @noparam as [No Parameter2]
+END
