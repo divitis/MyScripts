@@ -13,5 +13,5 @@ BEGIN
 	SET NOCOUNT ON;
 
     -- Insert statements for procedure here
-	SELECT @noparam as [No Parameter22]
+	SELECT @noparam as [No Parameter223]
 END
